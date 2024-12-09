@@ -17,6 +17,15 @@ This code include two parts:
 
 ---
 
+```text
+@inproceedings{sang2023enhanching,
+  title = {Enhancing Surface Neural Implicits with Curvature-Guided Sampling and Uncertainty-Augmented Representations},
+  author = {Sang, Lu and Saroha, Abhishek and Gao, Maolin and Cremers, Daniel},
+  booktitle = {ECCVW},
+  year = {2024},
+}
+```
+
 ## 🔧 Data Preparation
 We offer 2 [synthetic datasets](https://drive.google.com/file/d/1-qAWGg0Ji99W2O8NT5FVbZmUVr-61gGE/view?usp=sharing) example and one real-world dataset [TUM-RGBD dataset](https://cvg.cit.tum.de/data/datasets/rgbd-dataset).
 
@@ -122,3 +131,5 @@ python ./main/reconstructer.py --conf ./conf/recon.conf --expname armadillo (hap
 - We offer integrating our curvature and extra sampling with [IGR](https://github.com/amosgropp/IGR) and [neural-pull](https://github.com/mabaorui/NeuralPull). 
 
     Configure it in `recon.conf`, under `sampling`, `sampler=datasets.voxel_sampler.IGRSampler` or `sampler=datasets.voxel_sampler.NerualPullSampler`.
+
+

@@ -295,7 +295,6 @@ if __name__ == '__main__':
                     conf= opt.conf,
                     expname=opt.expname,
                     results_dir=opt.results_dir,
-                    mode = opt.mode,
                     input_level=opt.input_level,
                     eval=opt.eval
     )
