@@ -60,7 +60,7 @@ rgbd_dataset_freiburg3_desk
 
 - clone the repository with submodules
     ```
-    git clone --recurse-submodules 
+    git clone --recurse-submodules https://github.com/Sangluisme/curverture-sample-uncertainty-aware-sdf.git
     ```
 
 - Dependences:
@@ -117,8 +117,8 @@ python ./main/reconstructer.py --conf ./conf/recon.conf --expname armadillo (hap
 - We offer extra sample as shown in the following figure.
 <img src="assets/taylor.png" alt="Sample Image" width="300">
 
-Configure it in `recon.conf`, under `sampling`, `sampler=datasets.voxel_sampler.ExtraSampler`.
+    Configure it in `recon.conf`, under `sampling`, `sampler=datasets.voxel_sampler.ExtraSampler`.
 
 - We offer integrating our curvature and extra sampling with [IGR](https://github.com/amosgropp/IGR) and [neural-pull](https://github.com/mabaorui/NeuralPull). 
 
-Configure it in `recon.conf`, under `sampling`, `sampler=datasets.voxel_sampler.IGRSampler` or `sampler=datasets.voxel_sampler.NerualPullSampler`.
+    Configure it in `recon.conf`, under `sampling`, `sampler=datasets.voxel_sampler.IGRSampler` or `sampler=datasets.voxel_sampler.NerualPullSampler`.
