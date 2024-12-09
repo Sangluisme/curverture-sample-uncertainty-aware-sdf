@@ -1,0 +1,10 @@
+exp/*
+data/*
+.vscode
+.vscode/*
+weighted_marching_cubes/build
+weighted_marching_cubes/build/*
+weighted_marching_cubes/*.egg-info
+weighted_marching_cubes/dist/
+*/__pycache__
+*/__pycache__/*

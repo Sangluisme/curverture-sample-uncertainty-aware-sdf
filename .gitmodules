@@ -1,0 +1,6 @@
+[submodule "weighted_marching_cubes/pybind11"]
+	path = weighted_marching_cubes/pybind11
+	url = https://github.com/pybind/pybind11.git
+[submodule "weighted_marching_cubes/eigen"]
+	path = weighted_marching_cubes/eigen
+	url = https://gitlab.com/libeigen/eigen.git
